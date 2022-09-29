@@ -2,10 +2,10 @@
 #include <OneWire.h>
 #include <PubSubClient.h>
 
-const char *ssid =  "Yuvan_Shankar";        //Your Access Point or Personal Hotspot, cannot be longer than 32 characters!
-const char *pass =  "qaz12345";    //Your Access Point or Personal Hotspot password
+const char *ssid =  "YYYYYYY";        //Your Access Point or Personal Hotspot, cannot be longer than 32 characters!
+const char *pass =  "ZZZZZZ5";    //Your Access Point or Personal Hotspot password
 const char* serverTS = "api.thingspeak.com";
-String apiKey = "Y72DZI4PDJ3C6VM4";          //Insert your Channel API Key here
+String apiKey = "KEY";          //Insert your Channel API Key here
 //const int pingPin = 2;          //Ultrasonic connected to GPIO0
 int TRIGGER = 5; //Pin D1 = TRIGGER
 int ECHO = 4; //Pin D2 = ECHO
